@@ -1,0 +1,168 @@
+html {
+    font-family: din-pro,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    scroll-behavior: smooth;
+
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: rgb(45, 44, 42);
+      color: white;
+  }
+
+  ul{
+  list-style-image: circle;
+  padding-left: 200px;
+  }
+  header {
+    background-color: rgb(244, 206, 66);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    position: fixed;
+  }
+  header a:link {
+    color: black;
+      text-decoration: none;
+  }
+
+  header a:visited {
+    color: black;
+    text-decoration: none;
+
+  }
+  header a:hover {
+    text-decoration: none;
+    color: black;
+  }
+  header a:active {
+    color: black;
+    text-decoration: none;
+  }
+  .about  {
+      padding-left: 15%;
+      padding-right: 15%;
+      padding-top: 8%;
+      padding-bottom: 8%;
+  }
+  /*
+  #about {
+    background-color: white;
+    height: auto;
+  }
+  */
+
+  /* STICKY */
+
+  .sticky img{
+    height: 26px;
+  }
+  .sticky {
+    color: black;
+    width: 200px;
+    max-width: 100%;
+    position: fixed;
+    bottom: 20%;
+    right: 10px;
+    padding: 10px;
+    background-color: #f4ce42;
+    background-image: url("https://www.transparenttextures.com/patterns/climpek.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  }
+  #about {
+      background-image: url("../images/mans_grans.png");
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: repeat-y;
+      background-size: cover;
+    }
+
+  #aboutexpo {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    padding: 20px;
+  }
+
+  .callforaction {
+    text-align: center;
+  }
+
+.button {
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(244, 206, 66);
+    -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.button:hover {
+  background-color: rgb(244, 206, 66);
+  color: white;
+}
+
+button a {
+  color: black;
+}
+
+button a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+button a:visited {
+  color: black;
+}
+/* FOOTER */
+
+footer {
+    background-color: rgb(244, 206, 66);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+    text-align: center;
+}
+
+footer a {
+  color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#social {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#myFooter .facebook:hover {
+  color: #0077e2;
+}
+
+#myFooter  .twitter:hover {
+  color: #00aced;
+}
+#myFooter  .instagram:hover {
+  color: #d6249f;
+}
+
+.patrocini img{
+    max-width: 100%;
+  }
+#ReCSS {
+  max-width: 50%;
+}
+
+#box {
+  display: flex;
+  align-items: center;
+}

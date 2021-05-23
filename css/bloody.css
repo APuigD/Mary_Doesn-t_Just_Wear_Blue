@@ -1,0 +1,87 @@
+html {
+    font-family: din-pro,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    scroll-behavior: smooth;
+
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: rgb(244, 206, 66);
+      color: white;
+  }
+
+  ul{
+  list-style-image: circle;
+  padding-left: 200px;
+  }
+
+  .home {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 8%;
+  }
+  .arte {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    padding: 20px;
+  }
+
+#bloody {
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-height: 1000px;
+  max-width: 100%;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(244, 206, 66);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+    text-align: center;
+}
+
+footer a {
+  color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#social {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#myFooter .facebook:hover {
+  color: #0077e2;
+}
+
+#myFooter  .twitter:hover {
+  color: #00aced;
+}
+#myFooter  .instagram:hover {
+  color: #d6249f;
+}
+
+.patrocini img{
+    max-width: 100%;
+  }
+#ReCSS {
+  max-width: 50%;
+}
+
+#box {
+  display: flex;
+  align-items: center;
+}

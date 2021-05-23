@@ -1,0 +1,15 @@
+#expo {
+  width: 50%;
+  float: left;
+}
+#home-image {
+  width: 50%;
+  float: right;
+}
+
+.home {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 8%;
+  background-color: white;
+}
