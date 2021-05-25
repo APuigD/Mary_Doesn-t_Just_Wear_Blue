@@ -1,0 +1,100 @@
+
+html {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+
+  }
+
+
+  body {
+    background-color: black;
+      color: white;
+      padding: 0;
+      margin: 0;
+      width: 99%;
+      box-sizing: border-box;
+  }
+
+
+  .columnA {
+    flex: 100%;
+    max-width: 65%;
+    padding: 0;
+  }
+  .columnB {
+    flex: 100%;
+    max-width: 35%;
+    padding: 0;
+
+  }
+
+  .artworkpicture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+
+  .artworkpicture img{
+    box-sizing: border-box;
+    max-height: 700px;
+    height: 70%;
+    width: auto;
+  }
+
+
+  .artworkdescription {
+    margin: 0;
+    position: absolute;
+    color: #adb5bd;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+.artworkbuttons {
+
+  position: absolute;
+  top: 80%;
+
+}
+  .artworkbuttons {
+    border: none;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+
+  }
+.artworkbuttons a {
+  font-size: 16px;
+  margin: 4px 2px;
+  padding: 16px 32px;
+  transition-duration: 0.6s;
+}
+  .previous {
+  background-color: black;
+  color: #6c757d;
+  padding: 5px 10px;
+  border: 2px solid  #adb5bd;
+  border-radius: 4px;
+}
+
+.next {
+  background-color: black;
+  color: #adb5bd;
+  padding: 5px 10px;
+  border: 2px solid  #adb5bd;
+  border-radius: 4px;
+}
+
+  .artworkbuttons a:hover {
+    background-color: #adb5bd;
+    color: black;
+    text-decoration: none;
+
+  }
