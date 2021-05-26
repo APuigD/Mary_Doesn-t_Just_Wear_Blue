@@ -35,6 +35,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
     }
 
 
@@ -43,6 +44,7 @@ html {
     max-height: 700px;
     height: 70%;
     width: auto;
+
   }
 
 
@@ -54,25 +56,45 @@ html {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
   }
+  .artworkdescription a {
+    color: #adb5bd;
+    text-decoration: underline;
+
+  }
+  .artworkdescription a:hover {
+    text-decoration: underline;
+
+  }
 
 .artworkbuttons {
-
-  position: absolute;
+/*
+  position: absolute;*/
   top: 80%;
 
 }
   .artworkbuttons {
     border: none;
-
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    margin: 20px;
 
 
   }
+
+  div.scrollable {
+                margin:4px, 4px;
+                padding:4px;
+                /*background-color: green; */
+                width: 90%;
+                height: 250px;
+                overflow-x: hidden;
+                overflow-y: auto;
+                text-align:justify;
+            }
 .artworkbuttons a {
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 40px 2px;
   padding: 16px 32px;
   transition-duration: 0.6s;
 }
@@ -96,5 +118,115 @@ html {
     background-color: #adb5bd;
     color: black;
     text-decoration: none;
+
+  }
+
+  .closeart {
+    /* 	background: #606061;
+  	color: #FFFFFF; */
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #606061;
+    color: white;
+    	line-height: 30px;
+  	position: absolute;
+  	right: 60px;
+  	text-align: center;
+    align-items: center;
+  	top: 10px;
+  	width: 30px;
+    text-decoration: none;
+  	font-weight: bold;
+  	-webkit-border-radius: 2px;
+  	-moz-border-radius: 2px;
+  	border-radius: 2px;
+    -moz-box-shadow: 1px 1px 3px #000;
+  	-webkit-box-shadow: 1px 1px 3px #000;
+  	box-shadow: 1px 1px 3px #000;
+  }
+
+
+  .closeart:hover {
+    background: #adb5bd;
+    color:#606061;
+    /*
+    background: #606061;
+  color: #f4ce42
+
+  */}
+
+  /* MODALS */
+
+  .modalDialog {
+    position: fixed;
+  	font-family: Arial, Helvetica, sans-serif;
+  	top: 0;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+    width: 100%;
+  	background: rgba(0,0,0,0.8);
+    z-index: 99999;
+  	opacity:0;
+  	-webkit-transition: opacity 400ms ease-in;
+  	-moz-transition: opacity 400ms ease-in;
+  	transition: opacity 400ms ease-in;
+  	pointer-events: none;
+    max-height: 100vh;
+    overflow-y: auto;*/
+  }
+
+  .modalDialog:target {
+  	opacity:1;
+  	pointer-events: auto;
+  }
+
+  .modalDialog > div {
+    width: 50%;
+    max-width: 100%;
+    color: black;
+  	position: relative;
+  	margin: 10% auto;
+  	padding: 20px 20px 13px 20px;
+  	border-radius: 0px;
+    background-color: #f4ce42;
+    background-image: url("https://www.transparenttextures.com/patterns/absurdity.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    /*
+  	background: rgb(244, 206, 66);
+  	background: -moz-linear-gradient(#fff, rgb(244, 206, 66));
+  	background: -webkit-linear-gradient(#fff, rgb(244, 206, 66));
+  	background: -o-linear-gradient(#fff, rgb(244, 206, 66));
+    color: black; */
+  }
+
+.modalDialog img {
+  max-width: 100%;
+}
+
+
+  .close {
+    background: #606061;
+  	color: #FFFFFF;
+    	line-height: 25px;
+  	position: absolute;
+  	right: -12px;
+  	text-align: center;
+  	top: -10px;
+  	width: 24px;
+    text-decoration: none;
+  	font-weight: bold;
+  	-webkit-border-radius: 2px;
+  	-moz-border-radius: 2px;
+  	border-radius: 2px;
+    -moz-box-shadow: 1px 1px 3px #000;
+  	-webkit-box-shadow: 1px 1px 3px #000;
+  	box-shadow: 1px 1px 3px #000;
+  }
+
+
+  .close:hover {
+    background: #606061;
+  color: #f4ce42
 
   }

@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/artwork.css">
+    <link rel="stylesheet" href="../css/artwork.css">
     <title>Mary doesn't Just Wear Blue</title>
-    <link rel="icon" href="./images/purplehands.jpg">
+    <link rel="icon" href="../images/purplehands.jpg">
 
   </head>
   <body>
@@ -28,14 +28,43 @@
 
   <!-- ARTWORK -->
     <div class="artwork" id="artwork">
-        <!--
-          <a href="#close" title="Close" class="close">✖</a>
-        -->
+      <!--MODAL -->
+      <div class="modalDialog" id="openFco">
+        <div>
+          <a href="#close" title="Close" class="close">X</a>
           <div class="row">
+            <div class="col-md-6">
+              <img src="../images/artists/Francisco.jpg" alt="Fco Amezaga "Sr calavera"" class="photo">
+            </div>
+            <div class="col-md-6">
+              <p>
+                <em><b>Fco Amezaga "Sr calavera"</b></em> <br>
+                Mexico 1980
+                <br>
+                CD Obregón, Sonora, Mexico
+                <br>
+                Visual Artist & Set Designer
+                <br><br>
+                Multidisciplinary artist, he uses a variety of expressive artistic techniques and materials in his work, including illustration, painting, sculpture, engraving, and tattoo.
+                <br>
+                His work is centred around the theme of skulls, death, and the Day of the Dead, adapting it to various symbols of Mexican folklore and of Mexico’s various indigenous ethnicities, including dances, festivities, religion, masks, and characters typical of Mexican culture.
+                <br>
+                <a href="https://www.instagram.com/Sr_francisco_calavera/" target="_blank">@Sr_francisco_calavera</a>
+              </p>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+      <!--END OF MODAL-->
+          <div class="row">
+            <a href="../index.html" title="Close" class="closeart">✖</a>
             <div class="columnA">
               <br>
               <p class="artworkpicture">
-                <img src="./images/art/fco1.jpg" alt="">
+                <img src="../images/art/fco1.jpg" alt="">
               </p>
             </div>
             <div class="columnB">
@@ -46,28 +75,33 @@
                   <h3><em>Nuestra señora de los muertos</em></h3>
                   <h5>(Our Lady of the dead)</h5>
                   <br>
-                    <p>Fco Amezaga "Sr calavera"
+                    <p>
+                      <a href="#openFco">Fco Amezaga "Sr calavera"</a>
                   <br>
 
                     2019<br> Watercolour on paper, 17 x 14 cm
                   </p>
               </div>
+                            </div>
+          </div>
+          <div class="row">
+            <div class="columnA">
+
+            </div>
+            <div class="columnB">
               <div class="artworkbuttons">
                 <p >
                   <a href="./artwork_Celia.html" class="previous">&laquo; Previous</a>
-                  <a  href="#" class="next">Next &raquo;</a>
+                  <a  href="./artwork_TaniaA.html" class="next">Next &raquo;</a>
                 </p>
               </div>
-
-              </div>
-          </div>
-
+            </div>
         </div>
     </div>
 </main>
 
     <!-- Optional JavaScript -->
-    <script src="./js/master.js"></script>
+    <script src="../js/master.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
