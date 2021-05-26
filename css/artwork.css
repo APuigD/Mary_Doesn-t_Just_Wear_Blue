@@ -18,9 +18,7 @@ html {
       box-sizing: border-box;
   }
 
-.artwork {
-  width: 100%;
-}
+
   .columnA {
     flex: 100%;
     max-width: 65%;
