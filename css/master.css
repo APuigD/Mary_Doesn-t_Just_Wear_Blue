@@ -416,11 +416,8 @@ padding-left: 25%;
   transform: translateY(-50%);
 }
 .close {
-  /* 	background: #606061;
-	color: #FFFFFF; */
-
   background: #606061;
-  color: white;
+	color: #FFFFFF;
   	line-height: 25px;
 	position: absolute;
 	right: -12px;
@@ -439,13 +436,10 @@ padding-left: 25%;
 
 
 .close:hover {
-  background: white;
-  color:#606061;
-  /*
   background: #606061;
 color: #f4ce42
 
-*/}
+}
 
 /* PARTICIPATE */
 
