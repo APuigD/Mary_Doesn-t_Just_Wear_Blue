@@ -243,6 +243,17 @@ padding-left: 25%;
   text-decoration: none;
 }
 
+#aboutartists {
+  width: 100%;
+  background-color: rgb(244, 206, 66);
+  color: black;
+  padding: 20px;
+}
+
+#aboutartists a:hover{
+  text-decoration: none;
+}
+
 /* ARTISTS PHOTO */
 .photo {
   width: 100%;
@@ -263,8 +274,15 @@ padding-left: 25%;
 
 /*ARTWORK*/
 
+.artworks {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 8%;
+}
 
-
+#artworks {
+  padding-bottom: 20px;
+}
 .artphoto {
   width: 100%;
   height: auto;
@@ -338,10 +356,11 @@ padding-left: 25%;
 	pointer-events: auto;
 }
 
+
 .modalDialog > div {
 	width: 600px;
   max-width: 100%;
-  color: black;
+/*  color: black; */
 	position: relative;
 	margin: 10% auto;
 	padding: 20px 20px 13px 20px;
@@ -356,6 +375,12 @@ padding-left: 25%;
 	background: -o-linear-gradient(#fff, rgb(244, 206, 66));
   color: black; */
 }
+
+.modalDialog img {
+  max-width: 100%;
+}
+
+
 
 .modalDialogART {
 	position: fixed;
@@ -457,7 +482,7 @@ color: #f4ce42
 .activities {
   padding-left: 15%;
   padding-right: 15%;
-  padding-top: 8%;
+  padding-top: 2%;
   padding-bottom: 8%;
 }
 
@@ -468,6 +493,11 @@ color: #f4ce42
     background-repeat: repeat-y;
     background-size: cover;
 }
+
+#activities a:hover {
+  text-decoration: none;
+}
+
 
 #events {
   width: 100%;
@@ -482,17 +512,13 @@ color: #f4ce42
   transition: 0.3s;
   color: black;
   padding: 10px;
+  text-align: center;
+
 }
 
-/* Add some padding inside the card container */
-.container {
-  padding: 2px 16px;
+#picture {
+  background-color: black;
 }
-.card a {
-  color: black;
-  text-decoration: none;
-}
-
  td {
     vertical-align: middle;
 }
@@ -500,6 +526,10 @@ color: #f4ce42
  #focusgroup {
   background-color: #f4ce42;
   background-image: url("https://www.transparenttextures.com/patterns/climpek.png");
+  display: flex;
+  height: 150px;
+    justify-content: center;
+    align-items: center;
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
