@@ -570,6 +570,7 @@ color: #f4ce42
 
   border-radius: 5px 5px 0 0;
 }
+
 /* FOOTER */
 
 footer {
@@ -586,11 +587,12 @@ footer a {
     font-size: 30px;
 }
 
-#social {
+.flex-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  text-align: center;
-}
+  }
+
 
 #myFooter .facebook:hover {
   color: #0077e2;
@@ -603,12 +605,7 @@ footer a {
   color: #d6249f;
 }
 
-.patrocini {
-    max-width: 99%;
-}
-.patrocini img{
-    max-width: 100%;
-  }
+
 #ReCSS {
   max-width: 50%;
 }
@@ -616,5 +613,10 @@ footer a {
 #box {
   display: flex;
   align-items: center;
-  box-sizing: border-box;;
+  max-width: 25%;
+  margin-left: auto;
+  font-size: 1vw;
+}
+#box img {
+max-width: 100%;
 }
