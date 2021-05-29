@@ -164,12 +164,12 @@ html {
     flex: 100%;
     max-width: 65%;
     padding: 0;
+
   }
   .columnB {
     flex: 100%;
     max-width: 35%;
     padding: 0;
-
   }
 
   .artworkpicture {
@@ -178,6 +178,7 @@ html {
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
+
     }
 
 
@@ -186,17 +187,42 @@ html {
     max-height: 600px;
     height: 70%;
     width: auto;
-
-  }
+    max-width: 100%;
+    padding: 10px;
+      }
 
 
   .artworkdescription {
     margin: 0;
     position: absolute;
     color: #adb5bd;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    top: 10%;
+    font-size: 1vw;
+    max-height: 600px;
+
+  }
+
+  div.scrollable {
+                margin:4px, 4px;
+                padding:4px;
+                /*background-color: green; */
+                width: 90%;
+                max-height: 250px;
+                overflow-x: hidden;
+                overflow-y: auto;
+                text-align:justify;
+                padding-bottom: 100px;
+            }
+
+  .artworkdescription h3 {
+    font-size: 2vw;
+  }
+
+  .artworkdescription h5 {
+    font-size: 1.5vw;
+  }
+  .artworkdescription h6 {
+    font-size: 1.3vw;
   }
   .artworkdescription a {
     color: #adb5bd;
@@ -209,36 +235,26 @@ html {
   }
 
 .artworkbuttons {
-/*
-  position: absolute;*/
-  top: 80%;
+  padding-top: 100px;
+  position: absolute;
 
 }
   .artworkbuttons {
     border: none;
-    text-align: center;
+    text-align: right;
     text-decoration: none;
-    display: inline-block;
-    margin: 20px;
+    margin-right: 10%;
 
 
   }
 
-  div.scrollable {
-                margin:4px, 4px;
-                padding:4px;
-                /*background-color: green; */
-                width: 90%;
-                height: 200px;
-                overflow-x: hidden;
-                overflow-y: auto;
-                text-align:justify;
-            }
+
 .artworkbuttons a {
-  font-size: 16px;
+font-size: 1vw;
   margin: 40px 2px;
   padding: 16px 32px;
   transition-duration: 0.6s;
+
 }
   .previous {
   background-color: black;
@@ -272,7 +288,7 @@ html {
     color: white;
     line-height: 30px;
   	position: absolute;
-  	right: 60px;
+  	right: 20px;
   	text-align: center;
     align-items: center;
   	top: 10px;
