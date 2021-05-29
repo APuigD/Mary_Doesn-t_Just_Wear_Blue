@@ -244,17 +244,13 @@ html {
     text-align: right;
     text-decoration: none;
     margin-right: 10%;
-
-
   }
 
 
 .artworkbuttons a {
 font-size: 1vw;
-  margin: 40px 2px;
-  padding: 16px 32px;
   transition-duration: 0.6s;
-
+  text-decoration: none;
 }
   .previous {
   background-color: black;
